@@ -1,44 +1,245 @@
-
-<!DOCTYPE html>
-<html lang="ms">
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Join Dulcus Starprenuer Program – Be a fragrance entrepreneur with attractive commissions, rewards & support." />
   <title>Dulcus Starprenuer</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #fffaf4, #f8f2eb);
+  color: #3e2b1e;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+    header {
+  background: linear-gradient(to bottom, #fff, #fcf7f1);
+  text-align: center;
+  padding-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+    header video {
+      width: 100%;
+      max-height: 320px;
+      object-fit: cover;
+      border-bottom: 4px solid #a37039;
+    }
+    .logo {
+      max-width: 160px;
+      margin-top: 20px;
+    }
+    header h1 {
+      font-size: 2rem;
+      margin: 10px 0;
+    }
+    header h1 span {
+      color: #a37039;
+    }
+    header p {
+      font-size: 1rem;
+      color: #555;
+      margin: 0 15px 15px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 28px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      font-size: 0.95rem;
+    }
+    .btn.primary {
+      background: #a37039;
+      color: white;
+    }
+    .btn.secondary {
+      background: white;
+      color: #a37039;
+      border: 2px solid #a37039;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+    }
+    .cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 15px;
+    }
+    section {
+  padding: 50px 20px;
+  text-align: center;
+  background: #fffaf7;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
+    h2 {
+  font-size: 1.8rem;
+  color: #8d633a;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 0 #fff2e5;
+}
+    .tier-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .tier {
+      background: #fff7ef;
+      border: 1px solid #e1c9a1;
+      padding: 20px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .tier span {
+      display: block;
+      font-weight: normal;
+      font-size: 0.85rem;
+      color: #555;
+      margin-top: 6px;
+    }
+    .infographics .images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .infographics img {
+      max-width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to top, #f2e7db, #fffaf4);
+  color: #5a4633;
+  border-top: 1px solid #dbc2a1;
+  box-shadow: inset 0 1px 5px rgba(0,0,0,0.05);
+}
+    .footer-logo {
+      max-width: 100px;
+      margin-bottom: 10px;
+    }
+    .aida p, .benefits p, .intro-offer p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #444;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+      header p {
+        font-size: 0.95rem;
+      }
+      .btn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+      }
+      .tier {
+        font-size: 0.95rem;
+      }
+      .infographics img {
+        max-width: 90vw;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
-    <video autoplay muted loop>
-      <source src="Bark Haven Teaser.mp4" type="video/mp4">
+    <video autoplay muted loop playsinline style="width:100%; max-height:400px; object-fit:cover; border-bottom:4px solid #a37039;">
+      <source src="https://arleta.site/interactivelink/929/Dulcus-Teaser-Bark-Haven.mp4" type="video/mp4">
     </video>
-    <img class="logo" src="DulcusByIER.png" alt="Dulcus Logo">
-    <h1>Selamat Datang ke <span>Dulcus Starprenuer</span></h1>
-    <p>Inisiatif khas oleh Irfan Empire Resources untuk bantu anda jana pendapatan melalui bisnes perfume.</p>
+    <img src="https://arleta.site/interactivelink/929/Dulcus-By-IER.png" alt="Dulcus Logo" class="logo" />
+    <h1><span>Dulcus</span> Starprenuer</h1>
+    <p>Program Keusahawanan Wangian Eksklusif – Jana Pendapatan Bersama Kami</p>
     <div class="cta-buttons">
-      <a href="https://dulcusbyier.com/register?introducer_id=6" class="btn primary">Daftar Sekarang</a>
-      <a href="https://dulcusbyier.com/ecommerce/Yuhaini" class="btn secondary">Beli Sekarang</a>
+      <a href="https://dulcusbyier.com/register?introducer_id=6" class="btn primary">✍️ Daftar Sekarang</a>
+      <a href="https://dulcusbyier.com/ecommerce/Yuhaini" class="btn secondary">🛒 Beli Sekarang</a>
     </div>
   </header>
 
-  <section>
-    <h2>Ganjaran Menjadi Ejen Dulcus Perfume</h2>
-    <p>Dulcus Perfume ialah pilihan terbaik - produk wangian berkualiti, modal rendah, dan sokongan penuh disediakan.<br>
-    Daftar ejen Dulcus Perfume tanpa yuran. Mulakan bisnes perfume dari rumah dengan modal rendah.<br>
-    Terima starter kit percuma: eBook, gambar produk, skrip jualan & kad nama digital.</p>
+  <section class="aida">
+    <h2>Tentang Program Dulcus Starprenuer</h2>
+    <p><strong>Dulcus Starprenuer</strong> ialah inisiatif khas oleh <strong>Irfan Empire Resources</strong> untuk melahirkan lebih ramai usahawan dalam bidang jualan minyak wangi premium.</p>
+    <p>Program ini terbuka kepada semua – suri rumah, pelajar, pekerja dan sesiapa sahaja yang ingin jana pendapatan secara fleksibel.</p>
+    <p>Antara kelebihan menyertai program ini:</p>
+    <ul style="max-width:700px; margin:20px auto; text-align:left; line-height:1.8; font-size:1.05rem;">
+      <li>✅ Jual produk premium dengan modal rendah</li>
+      <li>✅ Tanpa pegang stok – HQ akan uruskan penghantaran</li>
+      <li>✅ Sistem pendaftaran & komisen automatik</li>
+      <li>✅ Ganjaran bulanan & coaching berterusan</li>
+      <li>✅ Daftar secara percuma – terus boleh mula</li>
+    </ul>
+  </section>
+
+  <section class="tiers">
+    <h2>Kategori Ejen</h2>
+    <div class="tier-grid">
+      <div class="tier">Lite<span>Min. 1 Unit</span></div>
+      <div class="tier">Active<span>Min. 5 Unit</span></div>
+      <div class="tier">Elite<span>Min. 10 Unit</span></div>
+      <div class="tier">Royale<span>Min. 50 Unit</span></div>
+    </div>
+    <div style="margin-top:30px; text-align:center;">
+      <img src="https://arleta.site/interactivelink/929/Dulcus-agent-infographic-1_page-0001-1.jpg" alt="Infografik Kategori Ejen" style="max-width:100%; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1); margin-top:20px;" />
+    </div>
+  </section>
+
+  <section class="commission">
+    <h2>Struktur Komisen Referral & Cara Multi-tier</h2>
+    <ul>
+      <li>Tier 1: Sehingga <strong>7%</strong> dari jualan ejen direct</li>
+      <li>Tier 2: Sehingga <strong>5%</strong> dari jualan ejen bawah ejen anda</li>
+      <li>Tier 3: Sehingga <strong>2%</strong> dari jualan ejen Tier 2</li>
+    </ul>
+    <div style="max-width:700px; margin:30px auto; text-align:left;">
+      <h3 style="color:#a37039;">Bagaimana Sistem Multi-tier Berfungsi?</h3>
+      <p><strong>Anda (Royale Agent)</strong> memperkenalkan <strong>Ali</strong> sebagai ejen (Tier 1). Ali pula memperkenalkan <strong>Fatin</strong> (Tier 2). Fatin pula perkenalkan <strong>Shah</strong> (Tier 3).</p>
+      <ul style="line-height: 1.6;">
+        <li>✔ Bila <strong>Ali</strong> buat jualan – anda terima komisen <strong>Tier 1 (7%)</strong></li>
+        <li>✔ Bila <strong>Fatin</strong> buat jualan – anda terima komisen <strong>Tier 2 (5%)</strong></li>
+        <li>✔ Bila <strong>Shah</strong> buat jualan – anda terima komisen <strong>Tier 3 (2%)</strong></li>
+      </ul>
+    </div>
+    <div class="infographics">
+      <div class="images">
+        <img src="https://arleta.site/interactivelink/929/Infographic-Agent-Active-Elite-Royale_page-0001-1.jpg" alt="Langkah 1" />
+        <img src="https://arleta.site/interactivelink/929/Infographic-Agent-Active-Elite-Royale_page-0002-1.jpg" alt="Langkah 2" />
+        <img src="https://arleta.site/interactivelink/929/Infographic-Agent-Active-Elite-Royale_page-0003-1.jpg" alt="Langkah 3" />
+      </div>
+    </div>
   </section>
 
   <section class="infographics">
-    <h2>Bagaimana Sistem Multi-Tier Berfungsi</h2>
+    <h2>Infografik Program</h2>
     <div class="images">
-      <img src="Infographic1.jpg" alt="Infografik 1">
-      <img src="Infographic2.jpg" alt="Infografik 2">
-      <img src="Infographic3.jpg" alt="Infografik 3">
+      <img src="https://arleta.site/interactivelink/929/Dulcus-agent-infographic-1_page-0001-1.jpg" alt="Kategori" />
+      <img src="https://arleta.site/interactivelink/929/Infographic-Agent-Active-Elite-Royale_page-0001-1.jpg" alt="Page 1" />
+      <img src="https://arleta.site/interactivelink/929/Infographic-Agent-Active-Elite-Royale_page-0002-1.jpg" alt="Page 2" />
+      <img src="https://arleta.site/interactivelink/929/Infographic-Agent-Active-Elite-Royale_page-0003-1.jpg" alt="Page 3" />
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Dulcus by Irfan Empire Resources. All rights reserved.</p>
-  </footer>
+    <img src="https://arleta.site/interactivelink/929/Logo-Irfan-Empire.png" alt="Irfan Empire Logo" class="footer-logo" />
+    <p>© 2025 Dulcus by Irfan Empire Resources</p>
+    <div class="cta-buttons" style="margin-top: 20px;">
+    <a href="https://dulcusbyier.com/register?introducer_id=6" class="btn primary">✍️ Daftar Sekarang</a>
+    <a href="https://dulcusbyier.com/ecommerce/Yuhaini" class="btn secondary">🛒 Beli Sekarang</a>
+  </div>
+</footer>
+
 </body>
 </html>
