@@ -72,12 +72,6 @@ h2 {
   color: #8d633a;
   margin-bottom: 20px;
 }
-.infographics .images {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-}
 .infographics img {
   max-width: 100%;
   border-radius: 10px;
