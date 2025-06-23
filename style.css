@@ -1,0 +1,100 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fffaf7;
+  color: #333;
+}
+header video {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-bottom: 4px solid #a37039;
+}
+.logo {
+  max-width: 160px;
+  margin: 20px auto 0;
+  display: block;
+}
+header h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 10px 0;
+}
+header h1 span {
+  color: #a37039;
+}
+header p {
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+  margin: 0 15px 15px;
+}
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+.btn.primary {
+  background: #a37039;
+  color: white;
+}
+.btn.secondary {
+  background: white;
+  color: #a37039;
+  border: 2px solid #a37039;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+section {
+  padding: 50px 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 900px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
+h2 {
+  font-size: 1.8rem;
+  color: #8d633a;
+  margin-bottom: 20px;
+}
+.infographics .images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.infographics img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to top, #f2e7db, #fffaf4);
+  color: #5a4633;
+  border-top: 1px solid #dbc2a1;
+}
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+  header p {
+    font-size: 0.95rem;
+  }
+}
